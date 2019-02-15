@@ -1,12 +1,20 @@
 h1 {
-    color: blue;
+    color: white;
 }
 p {
-    color: blue;
+    color: white;
 }
 body{
     font-size: 1.2em;
     font-family: fantasy;
-    color: #000;
+    color:white;
 }
-
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtw3kNZxt9L1Tx72ONizqIhOhQgXrUuaRTEdPthm_S9ciXOc24g);
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
