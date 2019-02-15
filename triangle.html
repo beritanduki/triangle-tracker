@@ -2,19 +2,21 @@
 <html>
     <head>
         <title>Triangle Tracker!</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1 class="intro">Find what kind of a triangle it is!</h1>
-        <p>Use this program after keying in your values to determine whether its an isoceless,equilateral or scalene triangle</p>
-        <form>
-            First length:<br>
-            <input type="number" name="First length"><br>
-            Second length:<br>
-            <input type="number" name="Second length"><br>
-            Third length:<br>
-            <input type="number" name="Third length"><br>
-            <input type="button" onclick="myFunction()" value="Submit">
+        <h1> Find what kind of a triangle it is!</h1>
+        <p> Use this program after keying in your values to determine whether its an isoceless,equilateral or scalene triangle</p>
+    
+            Side A:<br>
+            <input type="number" id="triangle1"><br>
+            Side B:<br>
+            <input type="number" id="triangle2"><br>
+            Side C:<br>
+            <input type="number" id="triangle3"><br>
+            <button class="btn" type="submit" onclick="triangle()">Submit</button>
         </form>
+
+         <script src="js/scripts.js"></script>
     </body>
 </html>
